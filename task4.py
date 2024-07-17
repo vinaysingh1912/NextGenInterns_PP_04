@@ -4,7 +4,7 @@ class Book:
         self.author = author
         self.is_borrowed = False
 
-    def _str_(self):
+    def __str__(self):
         return f"'{self.title}' by {self.author}"
 
 
